@@ -1,1 +1,28 @@
+# Archivos de configuración local
+*.env
+config/local/*
+*.ini
+*.yaml
 
+# Credenciales y contraseñas
+secrets/
+*.key
+*.pem
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
+# Binarios y compilados
+*.exe
+*.dll
+*.class
+*.o
+*.so
+*.out
+
+# Dependencias que se pueden volver a generar
+node_modules/
+venv/
+__pycache__/
