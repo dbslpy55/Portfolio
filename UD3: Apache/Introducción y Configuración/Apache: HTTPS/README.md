@@ -59,7 +59,7 @@ sudo apt update
 sudo apt install apache2
 systemctl status apache2
 ```
-
+![Apache2](Apache2.JPG)
 ### 3.2 Activación de módulos SSL y headers
 
 ```
@@ -71,22 +71,6 @@ sudo systemctl restart apache2
 ---
 
 ## 3.3 Generación del certificado SSL/TLS
-
-### **Opción A: Certificado autofirmado**
-
-1. Crear directorio:
-
-```
-sudo mkdir /etc/apache2/ssl
-```
-
-2. Generar certificado y clave privada:
-
-```
-sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
--keyout /etc/apache2/ssl/clave.key \
--out /etc/apache2/ssl/certificado.crt
-```
 
 ### **Opción B: Certificado Let’s Encrypt (Certbot)**
 
@@ -107,7 +91,7 @@ sudo certbot --apache
 ```
 sudo systemctl status certbot.timer
 ```
-
+![Generar Certificado](Apache3.JPG)
 ---
 
 ## 3.4 Configuración del VirtualHost para HTTPS (puerto 443)
