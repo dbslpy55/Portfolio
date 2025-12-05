@@ -18,6 +18,9 @@ sudo systemctl start tomcat10
 sudo systemctl enable tomcat10
 sudo systemctl status tomcat10
 ```
+
+![Instalación de Tomcat en Ubuntu](instalacion.png)
+
 ---
 
 ## 2. Despliegue automático de un WAR
