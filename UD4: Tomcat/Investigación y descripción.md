@@ -1,38 +1,44 @@
 # Índice
-1. Catalina  
-2. Coyote  
-3. Jasper  
-4. Manager y Host Manager  
-5. Estructura básica de directorios  
-6. Flujo interno de funcionamiento  
-7. Bibliografía  
 
-# Resumen de componentes de Tomcat
+1.  Componentes de Tomcat
+    *   1.1 Catalina
+    *   1.2 Coyote
+    *   1.3 Jasper
+    *   1.4 Manager y Host Manager
+    *   1.5 Estructura básica de directorios
+    *   1.6 Flujo interno de funcionamiento
+2.  Bibliografía
 
-## 1. Catalina: 
+## 1. Componentes de Tomcat
 
-Es el contenedor de servlets de Tomcat y constituye el núcleo del servidor. Gestiona servlets, JSP compiladas y sesiones. Su configuración principal se encuentra en `conf/server.xml`.
+### 1.1 Catalina: 
 
-## 2. Coyote: 
+Catalina es el contenedor de servlets de Tomcat. Catalina implementa las especificaciones de Sun Microsystems para servlets y JavaServer Pages (JSP). En Tomcat, un elemento Realm representa una "base de datos" de nombres de usuario, contraseñas y roles (similar a los grupos de Unix ) asignados a dichos usuarios. Diferentes implementaciones de Realm permiten integrar Catalina en entornos donde dicha información de autenticación ya se crea y mantiene
 
-Es el conector que recibe peticiones HTTP/1.1 y AJP desde el exterior y las entrega internamente a Catalina. También se configura en `conf/server.xml`.
+### 1.2 Coyote: 
 
-## 3. Jasper:
+Coyote es un componente conector para Tomcat compatible con el protocolo HTTP 1.1 y 2 como servidor web. Esto permite que Catalina, nominalmente un servlet de Java o contenedor JSP, también actúe como un servidor web simple que sirve archivos locales como documentos HTTP. Coyote detecta conexiones entrantes al servidor en un puerto TCP específico y reenvía la solicitud al motor Tomcat para procesarla y enviar una respuesta al cliente solicitante.
 
-Es el motor de compilación JSP; convierte páginas JSP en servlets Java. Sus resultados se almacenan en el directorio `work/` y utiliza librerías del directorio `lib/`.
+### 1.3 Jasper:
 
-## 4. Manager y Host Manager: 
+Jasper es el motor JSP de Tomcat. Analiza archivos JSP para compilarlos en código Java como servlets (archivos que Catalina puede gestionar). En tiempo de ejecución, Jasper detecta cambios en los archivos JSP y los recompila. A partir de la versión 5, Tomcat utiliza Jasper 2, una implementación de la especificación JSP 2.0 de Sun Microsystems.
+
+### 1.4 Manager y Host Manager: 
 
 Son aplicaciones administrativas para desplegar, gestionar y monitorizar aplicaciones web. Se ubican en `webapps/manager` y `webapps/host-manager`.
 
-## 5. Estructura básica de directorios:
+### 1.5 Estructura básica de directorios:
 
-La estructura básica incluye: `bin/` (scripts de inicio/parada), `conf/` (configuración), `webapps/` (aplicaciones), `lib/` (librerías del servidor) y `logs/` (registros generados).
+- bin: La carpeta bin almacena los ficheros binarios que permiten arrancar o parar Tomcat como son los ficheros startup y shutdown
+- conf : Es la carpeta en la cual disponemos de todos los ficheros de configuración , esta es la que contiene el fichero que queremos modificar
+- logs: La carpeta que almacena los ficheros de log.
+- lib: La carpeta que almacena librerías a nivel de Tomcat y son compartidas por las aplicaciones
+- webapps: La carpeta en la cual se despliegan las diferentes aplicaciones web
 
-## 6. Flujo interno de funcionamiento: 
+### 1.6 Flujo interno de funcionamiento: 
 
 El flujo interno comienza cuando **Coyote** recibe una petición y la traduce para **Catalina**, que determina el *Host* y el *Context* adecuados, ejecuta servlets o JSP (compiladas por **Jasper**) y devuelve la respuesta al cliente.
 
-# Bibliografía
+## 2. Bibliografía
 - [Apache Tomcat - Wikipedia](https://en.wikipedia.org/wiki/Apache_Tomcat#:~:text=a%20JSP%20engine)
 - [Tomcat Manager y su configuración - Arquitectura Java](https://www.arquitecturajava.com/tomcat-manager-y-su-configuracion/)
