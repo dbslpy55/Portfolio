@@ -29,11 +29,11 @@ Son aplicaciones administrativas para desplegar, gestionar y monitorizar aplicac
 
 ### 1.5 Estructura básica de directorios:
 
-- bin: La carpeta bin almacena los ficheros binarios que permiten arrancar o parar Tomcat como son los ficheros startup y shutdown
-- conf : Es la carpeta en la cual disponemos de todos los ficheros de configuración , esta es la que contiene el fichero que queremos modificar
-- logs: La carpeta que almacena los ficheros de log.
-- lib: La carpeta que almacena librerías a nivel de Tomcat y son compartidas por las aplicaciones
-- webapps: La carpeta en la cual se despliegan las diferentes aplicaciones web
+- **bin**: La carpeta bin almacena los ficheros binarios que permiten arrancar o parar Tomcat como son los ficheros startup y shutdown
+- **conf**: Es la carpeta en la cual disponemos de todos los ficheros de configuración , esta es la que contiene el fichero que queremos modificar
+- **logs**: La carpeta que almacena los ficheros de log.
+- **lib**: La carpeta que almacena librerías a nivel de Tomcat y son compartidas por las aplicaciones
+- **webapps**: La carpeta en la cual se despliegan las diferentes aplicaciones web
 
 ### 1.6 Flujo interno de funcionamiento: 
 
