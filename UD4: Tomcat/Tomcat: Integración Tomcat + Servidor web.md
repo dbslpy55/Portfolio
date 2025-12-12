@@ -43,26 +43,6 @@ Por último, queda el funcionamiento del servidor web, verificando la app direct
 ---
 ## Bibliografía
 
-- Apache Software Foundation. (2024). *Apache HTTP Server Documentation*.  
-  https://httpd.apache.org/docs/
+- [Documentación oficial de Apache](https://httpd.apache.org/docs/)
 
-- Apache Software Foundation. (2024). *Apache Tomcat 10.1 Documentation*.  
-  https://tomcat.apache.org/tomcat-10.1-doc/
-
-- Ubuntu Documentation. (2024). *Tomcat Installation and Configuration*.  
-  https://help.ubuntu.com/
-
-- DigitalOcean. (2023). *How To Install Apache Tomcat on Ubuntu*.  
-  https://www.digitalocean.com/community/tags/tomcat
-
-- Red Hat. (2024). *Reverse Proxy and Load Balancing with Apache HTTPD*.  
-  https://access.redhat.com/documentation/
-
-- StackOverflow Threads sobre AJP y Reverse Proxy (consultas técnicas específicas).  
-  https://stackoverflow.com/
-
-- Baeldung. (2023). *Guide to Apache Tomcat Configuration*.  
-  https://www.baeldung.com/
-
-- Oracle Java Docs (JSP/Servlet specification).  
-  https://docs.oracle.com/javaee/
+- [Documentación Tomcat 10](https://tomcat.apache.org/tomcat-10.1-doc/)
