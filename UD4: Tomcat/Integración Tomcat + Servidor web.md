@@ -38,7 +38,7 @@ sudo a2ensite tomcat-ajp.conf
 
 Por último, queda el funcionamiento del servidor web, verificando la app directamente: 
 
-![Funcionamiento](Funcionamiento.png)
+![Funcionamiento](img/Funcionamiento.png)
 
 ---
 ## Bibliografía
