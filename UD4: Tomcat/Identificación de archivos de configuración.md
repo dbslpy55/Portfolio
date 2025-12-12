@@ -1,6 +1,6 @@
 # Archivos clave de configuración en Tomcat
 
-![Achivos en configuración en Tomcat](localizacion_archivos.png)
+![Achivos en configuración en Tomcat](img/localizacion_archivos.png)
 
 ## 1. `conf/server.xml`
 Es el archivo principal de configuración del servidor y el que determina cómo Tomcat arranca y cómo recibe peticiones. Define:
