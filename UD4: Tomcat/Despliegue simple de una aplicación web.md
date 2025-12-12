@@ -19,7 +19,7 @@ sudo systemctl enable tomcat10
 sudo systemctl status tomcat10
 ```
 
-![Instalación de Tomcat en Ubuntu](instalacion.png)
+![Instalación de Tomcat en Ubuntu](img/instalacion.png)
 
 ---
 
@@ -47,4 +47,4 @@ Cuando Tomcat detecta un WAR nuevo en `webapps/`, realiza los siguientes pasos:
 
 ## 4. Funcionamiento de la aplicación
 
-![Hello World](Hello_world.png)
+![Hello World](img/Hello_world.png)
