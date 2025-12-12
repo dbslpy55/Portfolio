@@ -1,4 +1,4 @@
-# Integración Apache2 + Tomcat 10 en Ubuntu 24.04 (Máquina Virtual)
+# Integración Tomcat + Servidor web
 
 ## Índice
 1. Integración mediante AJP
