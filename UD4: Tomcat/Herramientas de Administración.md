@@ -14,7 +14,7 @@ Tomcat Manager es una aplicaci√≥n web administrativa que permite gestionar el ci
 
 ### Acceso
 
-
+```http://localhost:8080/manager```
 
 ### Requisitos
 - Usuario con rol `manager-gui`.
@@ -35,7 +35,7 @@ Tomcat Host Manager permite administrar hosts virtuales, posibilitando alojar m√
 
 ### Acceso
 
-
+```http://localhost:8080/host-manager```
 
 ### Requisitos
 - Usuario con rol `admin-gui`.
