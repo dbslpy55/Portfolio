@@ -11,7 +11,7 @@ Evaluar el rendimiento del servidor Tomcat bajo carga y optimizar su configuraci
 ```bash
 ab -n 1000 -c 10 http://localhost:8080/
 ```
-![Prueba del comando](img/ApacheBend.JPG)
+![Prueba del comando](img/ApacheBench.JPG)
 
 ---
 
@@ -26,6 +26,10 @@ Para ajustar el conector del arcivo ```server.xml```, debemos cambiar en el conn
 - ```acceptCount```: cola de peticiones
 - ```connectionTimeout```: tiempo de espera
 
-## 3. Conclusión
+## 3. Pruebas tras optimización
 
-El ajuste de parámetros del conector HTTP mejora significativamente el rendimiento del servidor Tomcat, permitiendo gestionar mayor carga concurrente con menor latencia.
+![Prueba del comando](img/ApacheBench2.JPG)
+
+## 4. Conclusión
+
+El ajuste de parámetros del conector HTTP mejoran, aunque muy poco en este caso, en el rendimiento del servidor Tomcat, permitiendo gestionar mayor carga concurrente con menor latencia.
