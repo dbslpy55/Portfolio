@@ -25,7 +25,7 @@ docker run -d --name tomcat-container -p 8080:8080 tomcat:latest
 
 ![Comprobar](img/imgDocker.JPG)
 
-PARTE 2 — Diferencias entre Tomcat nativo y Tomcat en Docker
+## PARTE 2 — Diferencias entre Tomcat nativo y Tomcat en Docker
 ### Tomcat nativo (instalado en el sistema)
 - Se instala mediante APT.
 - Usa rutas del sistema (/etc/tomcat10, /var/lib/tomcat10).
