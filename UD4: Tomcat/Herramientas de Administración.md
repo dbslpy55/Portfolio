@@ -20,7 +20,7 @@ Tomcat Manager es una aplicación web administrativa que permite gestionar el ci
 - Usuario con rol `manager-gui`.
 - Acceso restringido por IP (localhost por defecto).
 
-![Inicio de sesión](img/Tomcat1.jpg)
+![Inicio de sesión](img/Tomcat1.JPG)
 
 ---
 
