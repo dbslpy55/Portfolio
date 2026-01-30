@@ -23,7 +23,7 @@ El contenedor se ejecutó exponiendo el puerto 8080:
 docker run -d --name tomcat-container -p 8080:8080 tomcat:latest
 ```
 
-![Comprobar](img/imgDocker.JPG)
+![Comprobar](img/Contenedor.JPG)
 
 ## 4. Diferencias entre Tomcat nativo y Tomcat en Docker
 ### Tomcat nativo (instalado en el sistema)
