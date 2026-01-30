@@ -63,13 +63,13 @@ ProxyPassReverse /app http://localhost:8080/app
 Las principales medidas de seguridad implementadas son:
 
 ### Autenticación y roles
-Configurados en **tomcat-users.xml**:
+Configurados en `tomcat-users.xml`:
 
-- **manager-gui**
-- **admin-gui**
+- `manager-gui`
+- `admin-gui`
 
 ### Restricción de acceso
-El acceso a Manager y Host Manager se limita por IP (**localhost**).
+El acceso a Manager y Host Manager se limita por IP (`localhost`).
 
 ### HTTPS
 Se configuró un conector SSL con keystore:
@@ -79,9 +79,9 @@ Se configuró un conector SSL con keystore:
 
 ### Mejoras que se le pueden aplicar
 
-- No usar credenciales débiles.
-- No exponer Manager en producción.
-- Usar firewall y reverse proxy.
+- No usar contraseñas débiles.
+- No exponer el Manager en producción.
+- Usar un firewall y reverse proxy en caso de errores fatales.
 
 ## 5. Pruebas de funcionamiento y rendimiento
 Se realizaron pruebas de carga usando ApacheBench y curl paralelo. Un ejemplo de prueba que se ha hecho en clases:
@@ -90,7 +90,7 @@ Se realizaron pruebas de carga usando ApacheBench y curl paralelo. Un ejemplo de
 ab -n 1000 -c 10 http://localhost:8080/
 ```
 
-Se ajustaron parámetros en server.xml:
+Se ajustaron nuevos parámetros en server.xml:
 
 - **maxThreads**
 - **minSpareThreads**
