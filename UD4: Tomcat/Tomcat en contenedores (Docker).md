@@ -20,7 +20,7 @@ docker images
 El contenedor se ejecutó exponiendo el puerto 8080:
 
 ```bash
-docker run -d --name tomcat-container -p 8080:8080 tomcat:latest
+docker run -d --name tomcat-container -p 8081:8080 tomcat:latest
 ```
 
 ![Comprobar](img/Contenedor.JPG)
