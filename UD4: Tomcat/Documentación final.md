@@ -138,20 +138,17 @@ Las aplicaciones se despliegan en:
 | Escalabilidad | Manual        | Automática       |
 
 ## 8. Conclusión
-Apache Tomcat es una plataforma robusta y flexible para aplicaciones Java. Su correcta configuración, seguridad, integración con Apache y uso de contenedores permiten adaptarlo tanto a entornos académicos como profesionales, garantizando rendimiento, escalabilidad y control.
+
+Apache Tomcat es una plataforma robusta y flexible para aplicaciones Java. Su correcta configuración, seguridad, integración y uso de contenedores con Apache permiten adaptarlo a entornos profesionales, garantizando rendimiento y seguridad.
 
 ## 9. Bibliografía
-Apache Software Foundation. Apache Tomcat Documentation.
-https://tomcat.apache.org/
 
-Apache Software Foundation. Apache HTTP Server Documentation.
-https://httpd.apache.org/docs/
+[Apache Software Foundation. Apache Tomcat Documentation.](https://tomcat.apache.org/)
 
-Docker Inc. Docker Documentation.
-https://docs.docker.com/
+[Apache Software Foundation. Apache HTTP Server Documentation.](https://httpd.apache.org/docs/)
 
-Ubuntu Documentation. Tomcat on Ubuntu.
-https://help.ubuntu.com/
+[Docker Inc. Docker Documentation.](https://docs.docker.com/)
 
-Baeldung. Tomcat Configuration Guide.
-https://www.baeldung.com/
+[Ubuntu Documentation. Tomcat on Ubuntu.](https://help.ubuntu.com/)
+
+[Baeldung. Tomcat Configuration Guide.](https://www.baeldung.com/)
