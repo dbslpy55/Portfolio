@@ -27,7 +27,7 @@ sudo useradd -m -g ftp_limitado -s /usr/sbin/nologin ftpuser2
 sudo passwd ftpuser2
 ```
 
-![Creacion de grupos y usuarios](img/CreacionGruposUsuarios.JPG)
+![Creacion de grupos y usuarios](img/CreacionGrupoUsuarios.JPG)
 
 El uso de `/usr/sbin/nologin` evita que los usuarios puedan iniciar sesión por SSH.
 
