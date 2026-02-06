@@ -23,11 +23,7 @@ Esto permite:
 
 ## 2. Limitación del directorio accesible
 
-El directorio por defecto para usuarios anónimos es:
-```
-/srv/ftp
-```
-Se crea y asegura dicho directorio:
+El directorio por defecto para usuarios anónimos es `/srv/ftp`, así que se crea y asegura dicho directorio:
 ```
 sudo mkdir -p /srv/ftp
 sudo chown root:root /srv/ftp
