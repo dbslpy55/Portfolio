@@ -55,4 +55,4 @@ Comprobación del estado del servicio
 ```
 sudo systemctl status vsftpd
 ```
-![Comprobación del estado de vsftpd](img/vsftpdRunning.JPEG)
+![Comprobación del estado de vsftpd](img/vsftpdRunnig.JPG)
