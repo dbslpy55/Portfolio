@@ -50,12 +50,7 @@ Esto garantiza:
 - No crear directorios
 - No borrar archivos
 
-## 4. Reinicio del servicio
-
-Para aplicar los cambios realizados:
-```
-sudo systemctl restart vsftpd
-```
+Para aplicar los cambios realizados es necesario reiniciciar el `vsftpd`.
 ## 5. Prueba de acceso anónimo
 ### Conexión desde un cliente FTP
 
