@@ -51,7 +51,8 @@ Esto garantiza:
 - No borrar archivos
 
 Para aplicar los cambios realizados es necesario reiniciciar el `vsftpd`.
-## 5. Prueba de acceso anónimo
+
+## 4. Prueba de acceso anónimo
 ### Conexión desde un cliente FTP
 
 Desde otra máquina o desde el mismo sistema:
